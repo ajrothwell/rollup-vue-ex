@@ -1,4 +1,5 @@
 import Hello from './components/Hello.vue';
+import Mello from './components/Mello.vue';
 
 /**
  * An install function.

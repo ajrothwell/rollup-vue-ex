@@ -59,6 +59,23 @@ var Hello = { render: function () {
 	}
 };
 
+const styles$1 = {
+	'font-size': '16px'
+};
+
+var Mello = { render: function () {
+		var _vm = this;var _h = _vm.$createElement;var _c = _vm._self._c || _h;return _c('div', { staticClass: "mello", style: _vm.allStyles }, [_vm._v(" mello, Rollup Vue! ")]);
+	}, staticRenderFns: [], _scopeId: 'data-v-433c80f7',
+	name: 'mello',
+	data() {
+		return {
+			allStyles: _extends({}, styles$1, {
+				'font-weight': 'bold'
+			})
+		};
+	}
+};
+
 /**
  * An install function.
  *
