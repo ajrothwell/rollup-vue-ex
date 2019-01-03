@@ -9,10 +9,15 @@ function install(Vue) {
 	Vue.component('hello', Hello);
 }
 
+function install2(Vue) {
+	Vue.component('mello', Mello);
+}
+
 if ((typeof window !== 'undefined') && window.Vue) {
 	install(window.Vue);
 }
 
 export default {
-	install
+	install,
+	install2
 };

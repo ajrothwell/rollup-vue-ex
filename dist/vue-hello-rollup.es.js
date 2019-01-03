@@ -62,15 +62,20 @@ var Hello = { render: function () {
  * @param {any} Vue Vue API.
  */
 function install(Vue) {
-  Vue.component('hello', Hello);
+	Vue.component('hello', Hello);
+}
+
+function install2(Vue) {
+	Vue.component('mello', Mello);
 }
 
 if (typeof window !== 'undefined' && window.Vue) {
-  install(window.Vue);
+	install(window.Vue);
 }
 
 var index = {
-  install
+	install,
+	install2
 };
 
 export default index;
